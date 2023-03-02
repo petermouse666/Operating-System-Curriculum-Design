@@ -1,0 +1,12 @@
+megs: 32
+romimage: file=/home/petermouse/桌面/design/bochs-2.6.11/bios/BIOS-bochs-latest
+vgaromimage: file=/home/petermouse/桌面/design/bochs-2.6.11/bios/VGABIOS-lgpl-latest
+vga: extension=vbe, update_freq=15
+floppya: 1_44=freedos.img, status=inserted
+floppyb: 1_44=code.img, status=inserted
+ata0-master: type=disk, path=c.img, cylinders=306, heads=4, spt=17
+boot: a
+log: bochsout.txt
+mouse: enabled=0
+cpu: ips=15000000
+magic_break:enabled=1
